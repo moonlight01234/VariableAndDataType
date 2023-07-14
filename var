@@ -1,0 +1,33 @@
+namespace ConsoleApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            // String ifadeler
+            string ad = "elif";
+            string soyad = "tilki";
+            string tam_isim = ad + " " + soyad;
+
+            //integer
+            int a = 5;
+            int b = 10;
+            int c= a + b;
+
+            //date time
+
+            string datetime = DateTime.Now.ToString("dd.MM.yyyy");
+            Console.WriteLine(datetime);
+
+            string datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
+            Console.WriteLine(datetime2);
+
+            string datetime3 = DateTime.Now.ToString("HH:mm");
+            Console.WriteLine(datetime3);
+
+
+
+        }
+    }
+}
